@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                 onPressed: () {
                   BackgroundServiceController.stopService();
                 },
-                child: Text('Stop Service'),
+                child: Text('Stop Service testtt'),
               ),
             ],
           ),
