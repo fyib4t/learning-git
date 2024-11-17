@@ -26,13 +26,6 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              ElevatedButton(
-                onPressed: () async {
-                  await requestPermissions();
-                  BackgroundServiceController.startService();
-                },
-                child: Text('Start Service'),
-              ),
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
